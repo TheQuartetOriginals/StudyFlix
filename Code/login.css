@@ -95,6 +95,17 @@ body{
 .alternative-sign-in:hover{
     opacity: 0.8 !important;
     transition: all 0.3s ease !important;
+
+}
+
+.sign-in-btn a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.sign-in-btn a:hover{
+    text-decoration: none !important;
+    color: white;
 }
 
 footer{
