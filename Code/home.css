@@ -81,7 +81,6 @@ html {
 }
 
 
-
 .swiper-slide .image .black {
     width: 100%;
     height: 100%;
@@ -98,6 +97,7 @@ html {
     top: 55%;
     left: 5%;
     color: #fff;
+    font-weight: 1000;
 }
 
 .swiper-slide .image .black .star{
@@ -197,7 +197,7 @@ html {
 .card {
     position: relative;
     overflow: hidden;
-    border: 5px solid red !important;
+    border: 4px solid red !important;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     cursor: pointer;
