@@ -1,0 +1,202 @@
+body{
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    ), 
+    url("https://images.unsplash.com/photo-1484415063229-3d6335668531?q=80&w=1828&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    animation: backgroundAnimation 15s ease-in-out infinite;
+
+}
+
+
+.login-top{
+    width: 100vw;
+    background-color: transparent;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 80px; 
+}
+
+.login-top img{
+    width: 200px;
+}
+
+.login-box{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 430px;
+    height: 630px;
+    border-radius: 7%;
+    padding: 50px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.small-text{
+    font-size: 15px;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+.forgot-pass{
+    color: white;
+    text-decoration: none;
+}
+
+.forgot-pass:hover{
+    color: #ffcccb !important;
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+.sign-in{
+    font-size: 35px;
+}
+
+.input-field{
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 4px !important;
+    color: white !important;
+    padding: 10px 15px !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2) !important;
+    transition: background 0.3s ease, box-shadow 0.3s ease !important;
+    padding-left: 35px !important; /* Add padding to make room for the icon */
+}
+
+.input-field:hover {
+    background: rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.input-field:focus {
+    background: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4) !important;
+    outline: none !important;
+}
+
+.sign-in-btn{
+    background-color: rgb(219,26,40) !important;
+    font-weight: 700 !important;
+    opacity: 0.8;
+    cursor : pointer;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in-btn:hover {
+    background-color: rgba(112, 1, 16, 0.859) !important;
+    transition: all 0.3s ease !important;
+}
+
+.alternative-sign-in{
+    background-color: rgba(255, 255, 255, 0.252) !important;
+    color: #fff;
+}
+
+.alternative-sign-in:hover{
+    opacity: 0.8 !important;
+    transition: all 0.3s ease !important;
+
+}
+
+.sign-in-btn a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.sign-in-btn a:hover{
+    text-decoration: none !important;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.copyright-text{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    align-items: center;
+    color: #888;
+}
+
+
+
+/* Icons */
+.form-group {
+    position: relative; /* Ensure the icons are positioned relative to this container */
+}
+
+.form-group .bi {
+    position: absolute;
+    left: 10px; /* Adjust the left position to fit your design */
+    top: 50% ;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5); /* Icon color */
+    pointer-events: none; /* Prevent icons from interfering with input clicks */
+    z-index: 10; /* Ensure the icon appears above the input field */
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    body{
+        background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)
+        ), 
+        url("https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+    }
+    
+    .login-top img {
+        margin: 0 auto; 
+        display: block; 
+    }
+
+    .login-box {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .sign-in {
+        font-size: 28px;
+    }
+
+    .sign-in-btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .input-field {
+        padding: 8px 12px;
+        font-size: 14px !important;
+    }
+
+    .copyright-text {
+        font-size: 20px;
+    }
+}
