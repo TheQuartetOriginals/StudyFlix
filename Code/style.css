@@ -196,6 +196,8 @@ header {
     width: 80%;
     margin: auto;
     border-radius: 20% 0px 30% 0px;
+    border: 2px solid grey;
+
 }
 
 .features h2{
@@ -329,6 +331,11 @@ input[type="radio"]{
 
 .accordion input[type="radio"]:checked + .label2::after{
     transform: rotate(135deg);
+}
+
+.accordion .label2:hover{
+    background-color:#333;
+    transition: 0.2s ease-in-out;
 }
 
 section .email_signup{
