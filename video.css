@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #171717 !important; /* Dark background similar to YouTube */
+  background-color: #171717 !important; 
   color: #fff; /* White text color */
   margin: 0;
   font-family: Arial, sans-serif;
@@ -200,16 +200,16 @@ body {
   height: 60px;
   margin-right: 10px;
   border-radius: 4px;
-  flex-shrink: 0; /* Prevent the image from shrinking */
+  flex-shrink: 0; 
 }
 
 .related-videos a span {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap; /* Ensure text stays on one line */
+  white-space: nowrap; 
   display: inline-block;
-  width: 0; /* Start with zero width */
-  flex-grow: 1; /* Allow the text to grow and fill space */
+  width: 0; 
+  flex-grow: 1; 
 }
 
 /* Resource Library */
