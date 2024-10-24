@@ -1,5 +1,4 @@
 @media only screen and (max-width: 768px) {
-      /* Navigation Bar */
     
       .navbar-brand img {
         max-width: 100%;
@@ -7,7 +6,6 @@
         width: 120px;
       }
       
-      /* Hamburger Icon */
 
       .hamburger-icon {
         display: block;
@@ -40,7 +38,6 @@
         display: block;
       }
     
-      /* Swiper */
     
       .swiper-slide .image .black {
         height: 100%;
@@ -65,7 +62,6 @@
         margin-bottom: 10px;
       }
 
-      /* Cards Section */
 
       .card{
             max-width: 80%;
