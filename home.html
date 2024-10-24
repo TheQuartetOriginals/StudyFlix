@@ -7,24 +7,18 @@
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="responsive.css">
 
-  <!-- Swipper CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-  <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <!-- Bootsrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
   <link rel="shortcut icon" href="https://i.ibb.co/bNqRpkg/letter-logo.png" alt="letter-logo" type="image/x-icon">
 
-
-
 </head>
 <body>
   
-	<!-- Navigation Bar : Start -->
-      <section class="top">
+      <section class="top" id="top">
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
               <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -48,9 +42,6 @@
                 </div>
               </div>
             </nav>
-            <!-- Navigation Bar : End -->
-
-	<!-- Slider : Start -->
 
 	<div class="swiper mySwiper">
 		<div class="swiper-wrapper">
@@ -185,12 +176,8 @@
 		<div class="swiper-pagination"></div>
 	  </div>
 	
-	
-	  <!-- Slider : End -->
-
   </section>
 
-<!-- Trending Card Section : Start -->
 <div class="card-section" id="Trending">
 	<div class="container">
 	    <div class="row">
@@ -237,9 +224,7 @@
 	    </div>
 	</div>
   </div>
-  <!-- Trending Card Section : End -->
 
-<!-- Suggested Card Section : Start -->
 <div class="card-section" id="Suggested">
 	<div class="container">
 	    <div class="row">
@@ -287,11 +272,9 @@
 	    </div>
 	</div>
   </div>
-  <!-- Suggested Card Section : End -->
    
 
 
-<!-- Resource Library Section : Start -->
 <section id="resource-library" class="resource-library-section">
 	<div class="container">
 	  <h2>Resource Library</h2>
@@ -347,12 +330,8 @@
 	  </div>
 	</div>
   </section>
-  <!-- Resource Library Section : End -->
   
-  
-
-<!-- Resource Library Section : Start -->
-<section id="resource-library" class="resource-library-section">
+  <section id="resource-library" class="resource-library-section">
 	<div class="container">
 	    <h2>Ist Year CSE</h2>
 	    <div class="row">
@@ -408,43 +387,20 @@
 	    </div>
 	</div>
   </section>
-  
-  
-<!-- Resource Library Section : End -->
-  
+    
   
 
-<!-- Footer -->
 <footer>
 	<p class="copyright-text"> © StudyFlix India</p>
 </footer>
 
+<a id="back-to-top" href="#top" style="display: none;">↑</a>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- Script Section : Bootstrap, Swiper JS -->
-    <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <!-- Bootstarp JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
-  <!-- Initialize Swiper by Swipper JS-->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
+<script src="home.js"></script>
 </html>
